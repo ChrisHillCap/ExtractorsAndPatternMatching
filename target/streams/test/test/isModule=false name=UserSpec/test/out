@@ -1,0 +1,7 @@
+[0m[[0minfo[0m] [0m[32mUserSpec:[0m[0m
+[0m[[0minfo[0m] [0m[32mUser case class.[0m[0m
+[0m[[0minfo[0m] [0m[32m- should unapply and return an Option[Tuple][0m[0m
+[0m[[0minfo[0m] [0m[32mUserWithOverridedUnapply case class.[0m[0m
+[0m[[0minfo[0m] [0m[32m- should unapply and return an Option[Tuple] & awesome set to true if users email has @ symbol in it[0m[0m
+[0m[[0minfo[0m] [0m[32mextractor1 object[0m[0m
+[0m[[0minfo[0m] [0m[32m- should unapply the User class into a List of Strings in an Option[0m[0m

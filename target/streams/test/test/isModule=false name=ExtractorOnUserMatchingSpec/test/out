@@ -1,6 +1,0 @@
-[0m[[0minfo[0m] [0m[32mExtractorOnUserMatchingSpec:[0m[0m
-[0m[[0minfo[0m] [0m[32mExtractor object[0m[0m
-[0m[[0minfo[0m] [0m[32m- should work in a match statement AND match on a user as awesome is true[0m[0m
-[0m[[0minfo[0m] [0m[32m- should work in a match statement BUT not match on a user because awesome is false[0m[0m
-[0m[[0minfo[0m] [0m[32mdefault User unapply[0m[0m
-[0m[[0minfo[0m] [0m[32m- should work in a match statement, matching against an option of tuple[0m[0m

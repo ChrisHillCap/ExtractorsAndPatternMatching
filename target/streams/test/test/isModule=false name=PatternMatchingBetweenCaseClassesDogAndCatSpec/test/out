@@ -1,0 +1,7 @@
+[0m[[0minfo[0m] [0m[32mPatternMatchingBetweenCaseClassesDogAndCatSpec:[0m[0m
+[0m[[0minfo[0m] [0m[32mpatternMatchingBetweenDogsAndCats[0m[0m
+[0m[[0minfo[0m] [0m[32m- should return true when dog and cat match even though they are different case classes. cat can fetch a ball[0m[0m
+[0m[[0minfo[0m] [0m[32m- should return false when cat can't fetch a ball because it is not clever enough to be a dog unapply method returns None[0m[0m
+[0m[[0minfo[0m] [0m[32mpatternMatchingBetweenDogsAndCatsRefactored[0m[0m
+[0m[[0minfo[0m] [0m[32m- should return true when dog and cat match even though they are different case classes. cat can fetch a ball[0m[0m
+[0m[[0minfo[0m] [0m[32m- should return false when cat can't fetch a ball because it is not clever enough to be a dog unapply method returns None[0m[0m

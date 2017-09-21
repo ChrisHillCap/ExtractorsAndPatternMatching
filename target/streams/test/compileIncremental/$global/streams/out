@@ -1,29 +1,42 @@
 [0m[[0mdebug[0m] [0m[naha] [0m
 [0m[[0mdebug[0m] [0m[naha] Initial source changes: [0m
 [0m[[0mdebug[0m] [0m[naha] 	removed:Set()[0m
-[0m[[0mdebug[0m] [0m[naha] 	added: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	added: Set(/Users/chill/paye/ExtractorsAndPatterMatching/src/test/scala/PatternMatchingBetweenCaseClassesDogAndCatSpec.scala)[0m
 [0m[[0mdebug[0m] [0m[naha] 	modified: Set(/Users/chill/paye/ExtractorsAndPatterMatching/src/test/scala/UserSpec.scala)[0m
-[0m[[0mdebug[0m] [0m[naha] Invalidated products: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated products: Set(/Users/chill/paye/ExtractorsAndPatterMatching/target/scala-2.12/test-classes/ExtractorOnUserMatchingSpec.class, /Users/chill/paye/ExtractorsAndPatterMatching/target/scala-2.12/test-classes/IsOddIsEvenSpec.class, /Users/chill/paye/ExtractorsAndPatterMatching/target/scala-2.12/test-classes/UserSpec.class)[0m
 [0m[[0mdebug[0m] [0m[naha] External API changes: API Changes: Set()[0m
 [0m[[0mdebug[0m] [0m[naha] Modified binary dependencies: Set()[0m
-[0m[[0mdebug[0m] [0m[naha] Initial directly invalidated sources: Set(/Users/chill/paye/ExtractorsAndPatterMatching/src/test/scala/UserSpec.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Initial directly invalidated sources: Set(/Users/chill/paye/ExtractorsAndPatterMatching/src/test/scala/PatternMatchingBetweenCaseClassesDogAndCatSpec.scala, /Users/chill/paye/ExtractorsAndPatterMatching/src/test/scala/UserSpec.scala)[0m
 [0m[[0mdebug[0m] [0m[naha] [0m
 [0m[[0mdebug[0m] [0m[naha] Sources indirectly invalidated by:[0m
-[0m[[0mdebug[0m] [0m[naha] 	product: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	product: Set(/Users/chill/paye/ExtractorsAndPatterMatching/src/test/scala/ExtractorOnUserMatchingSpec.scala, /Users/chill/paye/ExtractorsAndPatterMatching/src/test/scala/IsOddIsEvenSpec.scala, /Users/chill/paye/ExtractorsAndPatterMatching/src/test/scala/UserSpec.scala)[0m
 [0m[[0mdebug[0m] [0m[naha] 	binary dep: Set()[0m
 [0m[[0mdebug[0m] [0m[naha] 	external source: Set()[0m
-[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/Users/chill/paye/ExtractorsAndPatterMatching/src/test/scala/UserSpec.scala)[0m
-[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/Users/chill/paye/ExtractorsAndPatterMatching/src/test/scala/UserSpec.scala)[0m
-[0m[[0minfo[0m] [0mCompiling 1 Scala source to /Users/chill/paye/ExtractorsAndPatterMatching/target/scala-2.12/test-classes...[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/Users/chill/paye/ExtractorsAndPatterMatching/src/test/scala/PatternMatchingBetweenCaseClassesDogAndCatSpec.scala, /Users/chill/paye/ExtractorsAndPatterMatching/src/test/scala/UserSpec.scala, /Users/chill/paye/ExtractorsAndPatterMatching/src/test/scala/ExtractorOnUserMatchingSpec.scala, /Users/chill/paye/ExtractorsAndPatterMatching/src/test/scala/IsOddIsEvenSpec.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/Users/chill/paye/ExtractorsAndPatterMatching/src/test/scala/PatternMatchingBetweenCaseClassesDogAndCatSpec.scala, /Users/chill/paye/ExtractorsAndPatterMatching/src/test/scala/UserSpec.scala, /Users/chill/paye/ExtractorsAndPatterMatching/src/test/scala/ExtractorOnUserMatchingSpec.scala, /Users/chill/paye/ExtractorsAndPatterMatching/src/test/scala/IsOddIsEvenSpec.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Recompiling all 4 sources: invalidated sources (4) exceeded 50.0% of all sources[0m
+[0m[[0minfo[0m] [0mCompiling 4 Scala sources to /Users/chill/paye/ExtractorsAndPatterMatching/target/scala-2.12/test-classes...[0m
 [0m[[0mdebug[0m] [0mGetting org.scala-sbt:compiler-interface:0.13.16:component from component compiler for Scala 2.12.3[0m
 [0m[[0mdebug[0m] [0mGetting org.scala-sbt:compiler-interface:0.13.16:component from component compiler for Scala 2.12.3[0m
-[0m[[0mdebug[0m] [0mRunning cached compiler 3589d45c, interfacing (CompilerInterface) with Scala compiler version 2.12.3[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 541ba6f2, interfacing (CompilerInterface) with Scala compiler version 2.12.3[0m
 [0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
 [0m[[0mdebug[0m] [0m	-bootclasspath[0m
 [0m[[0mdebug[0m] [0m	/Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/jre/classes:/Users/chill/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.3.jar[0m
 [0m[[0mdebug[0m] [0m	-classpath[0m
 [0m[[0mdebug[0m] [0m	/Users/chill/paye/ExtractorsAndPatterMatching/target/scala-2.12/test-classes:/Users/chill/paye/ExtractorsAndPatterMatching/target/scala-2.12/classes:/Users/chill/.ivy2/cache/org.scalactic/scalactic_2.12/bundles/scalactic_2.12-3.0.0.jar:/Users/chill/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.12.3.jar:/Users/chill/.ivy2/cache/org.scalatest/scalatest_2.12/bundles/scalatest_2.12-3.0.0.jar:/Users/chill/.ivy2/cache/org.scala-lang.modules/scala-xml_2.12/bundles/scala-xml_2.12-1.0.5.jar:/Users/chill/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.12/bundles/scala-parser-combinators_2.12-1.0.4.jar[0m
-[0m[[0mdebug[0m] [0mScala compilation took 4.836212327 s[0m
+[0m[[33mwarn[0m] [0m/Users/chill/paye/ExtractorsAndPatterMatching/src/test/scala/ExtractorOnUserMatchingSpec.scala:41: match may not be exhaustive.[0m
+[0m[[33mwarn[0m] [0mIt would fail on the following input: None[0m
+[0m[[33mwarn[0m] [0m      User.unapply(newUser) match {[0m
+[0m[[33mwarn[0m] [0m                  ^[0m
+[0m[[33mwarn[0m] [0mone warning found[0m
+[0m[[0mdebug[0m] [0mScala compilation took 2.446933821 s[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating /Users/chill/paye/ExtractorsAndPatterMatching/src/test/scala/PatternMatchingBetweenCaseClassesDogAndCatSpec.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating (transitively) by inheritance from /Users/chill/paye/ExtractorsAndPatterMatching/src/test/scala/PatternMatchingBetweenCaseClassesDogAndCatSpec.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/Users/chill/paye/ExtractorsAndPatterMatching/src/test/scala/PatternMatchingBetweenCaseClassesDogAndCatSpec.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated by transitive inheritance dependency: Set(/Users/chill/paye/ExtractorsAndPatterMatching/src/test/scala/PatternMatchingBetweenCaseClassesDogAndCatSpec.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] The /Users/chill/paye/ExtractorsAndPatterMatching/src/test/scala/PatternMatchingBetweenCaseClassesDogAndCatSpec.scala source file has the following implicit definitions changed:[0m
+[0m[[0mdebug[0m] [0m[naha] 	convertToStringShouldWrapperForVerb, convertToStringCanWrapper, convertToWordSpecStringWrapper, convertToAnyShouldWrapper, convertNumericToPlusOrMinusWrapper, convertToEqualizer, subjectWithAfterWordRegistrationFunction, convertToRegexWrapper, unconstrainedEquality, convertToStringMustWrapperForVerb, convertToStringShouldWrapper, convertSymbolToHavePropertyMatcherGenerator, subjectRegistrationFunction.[0m
+[0m[[0mdebug[0m] [0m[naha] All member reference dependencies will be considered within this context.[0m
 [0m[[0mdebug[0m] [0m[naha] New invalidations:[0m
 [0m[[0mdebug[0m] [0m[naha] 	Set()[0m
 [0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set()[0m

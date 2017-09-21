@@ -1,5 +1,7 @@
 #Successful Tests
-#Tue Sep 19 13:59:10 BST 2017
+#Wed Sep 20 16:35:54 BST 2017
+PatternMatchingBetweenCaseClassesDogAndCatSpec=1505921754016
 MultipleExtractorsOnUserMatchingSpec=1505825949964
-UserSpec=1505825950014
-ExtractorOnUserMatchingSpec=1505825950001
+IsOddIsEvenSpec=1505921754016
+UserSpec=1505921754034
+ExtractorOnUserMatchingSpec=1505921754006

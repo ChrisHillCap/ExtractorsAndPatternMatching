@@ -1,5 +1,4 @@
-import org.scalatest.{FunSpec, Matchers, WordSpec}
-import org.scalatest.mockito.MockitoSugar
+import org.scalatest.{ Matchers, WordSpec}
 
 class UserSpec extends WordSpec with Matchers{
 
@@ -16,7 +15,6 @@ class UserSpec extends WordSpec with Matchers{
     val newUser = UserWithOverridedUnapply("chris","hill","email@domain.com",24,false)
 
     UserWithOverridedUnapply.unapply(newUser) shouldBe Some("chris","hill","email@domain.com",24,true)
-
     }
   }
 

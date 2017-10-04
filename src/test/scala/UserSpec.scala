@@ -38,7 +38,9 @@ class UserSpec extends WordSpec with Matchers{
     "should return correct value" in {
       val newUser = User("chris", "hill", "email@domain.com", 24, true)
       User.unapply(newUser) match {
-        case Some((a,b,c,d,extractor3Bool(e))) => println(a + b  + c + d  + e)
+          //extractor3Bool has transformed the Boolean to a String
+        case Some((a,b,c,d,extractor3Bool(e))) => (a + b + c + d + e) shouldBe "chrishillemail@domain.com24foosicle"
+
       }
     }
   }

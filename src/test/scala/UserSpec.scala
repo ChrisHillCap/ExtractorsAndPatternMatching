@@ -25,7 +25,25 @@ class UserSpec extends WordSpec with Matchers{
       Extractor.unapply(newUser) shouldBe Some(List("chris", "hill", "email@domain.com", "24", "true"))
     }
   }
+"extractor2 object" should {
+  "unapply with tuple should return match when 2 users are passed into extractor object" in {
+    val newUser = User("chris", "hill", "email@domain.com", 24, true)
+    val newUser1 = User("chris", "hill", "email@domain.co", 24, true)
+    (newUser,newUser1) match{
+      case extractor2(a) => println("fooooo")
+    }
+  }
 
+  "extractor objects inside extractor objects" should {
+    "should return correct value" in {
+      val newUser = User("chris", "hill", "email@domain.com", 24, true)
+      User.unapply(newUser) match {
+        case Some((a,b,c,d,extractor3Bool(e))) => println(a + b  + c + d  + e)
+      }
+    }
+  }
+
+}
 
 
 }
